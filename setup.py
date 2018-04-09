@@ -38,6 +38,7 @@ setup(
     keywords='minitor monitoring alerting',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     install_requires=[
+        'flask',
         'yamlenv',
     ],
     entry_points={
